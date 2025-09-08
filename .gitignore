@@ -1,0 +1,55 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and virtual environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pydantic settings or secrets
+*.env.*
+
+# Python package distributions
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test outputs
+.pytest_cache/
+
+# Static files (if generated)
+staticfiles/
+media/
+
+# Node (if using frontend in same repo)
+node_modules/
+npm-debug.log
+yarn-error.log
